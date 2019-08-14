@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Parameters test Suite]">
+  <test thread-count="5" verbose="5" name="Parameters Passed thru testng file(failed)">
+    <parameter name="password" value="sushila231082"/>
+    <parameter name="email" value="sush.rinwa@gmail.com"/>
+    <classes>
+      <class name="practiceTestNG.PracticeTestNG">
+        <methods>
+          <include name="facebooktitleTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- practiceTestNG.PracticeTestNG -->
+    </classes>
+  </test> <!-- Parameters Passed thru testng file(failed) -->
+</suite> <!-- Failed suite [Parameters test Suite] -->
