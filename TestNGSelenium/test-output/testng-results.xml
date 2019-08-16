@@ -1,133 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65280" started-at="2019-08-14T21:56:37Z" finished-at="2019-08-14T21:57:42Z">
+  <suite name="Default suite" duration-ms="32" started-at="2019-08-16T01:18:27Z" finished-at="2019-08-16T01:18:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65280" started-at="2019-08-14T21:56:37Z" finished-at="2019-08-14T21:57:42Z">
-      <class name="dataProviderTestNG.DataProviderInTestNG">
-        <test-method status="PASS" signature="setup()[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="setup" is-config="true" duration-ms="12947" started-at="2019-08-14T21:56:38Z" finished-at="2019-08-14T21:56:51Z">
+    <test name="Default test" duration-ms="32" started-at="2019-08-16T01:18:27Z" finished-at="2019-08-16T01:18:27Z">
+      <class name="src.demo.DemoGit">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:src.demo.DemoGit@4501b7af]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-16T01:18:27Z" finished-at="2019-08-16T01:18:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTest(java.lang.String, java.lang.String)[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="loginPageTest" duration-ms="393" started-at="2019-08-14T21:56:51Z" data-provider="getTestData" finished-at="2019-08-14T21:56:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcd@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abcd@123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:src.demo.DemoGit@4501b7af]" name="test" duration-ms="11" started-at="2019-08-16T01:18:27Z" finished-at="2019-08-16T01:18:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="teardown" is-config="true" duration-ms="747" started-at="2019-08-14T21:56:51Z" finished-at="2019-08-14T21:56:52Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:src.demo.DemoGit@4501b7af]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-16T01:18:27Z" finished-at="2019-08-16T01:18:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="setup" is-config="true" duration-ms="11421" started-at="2019-08-14T21:56:52Z" finished-at="2019-08-14T21:57:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTest(java.lang.String, java.lang.String)[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="loginPageTest" duration-ms="382" started-at="2019-08-14T21:57:03Z" data-provider="getTestData" finished-at="2019-08-14T21:57:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xyz@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xyz@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="teardown" is-config="true" duration-ms="837" started-at="2019-08-14T21:57:04Z" finished-at="2019-08-14T21:57:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="setup" is-config="true" duration-ms="11809" started-at="2019-08-14T21:57:04Z" finished-at="2019-08-14T21:57:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTest(java.lang.String, java.lang.String)[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="loginPageTest" duration-ms="416" started-at="2019-08-14T21:57:16Z" data-provider="getTestData" finished-at="2019-08-14T21:57:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[efghk@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[efghk@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="teardown" is-config="true" duration-ms="841" started-at="2019-08-14T21:57:17Z" finished-at="2019-08-14T21:57:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="setup" is-config="true" duration-ms="11010" started-at="2019-08-14T21:57:17Z" finished-at="2019-08-14T21:57:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTest(java.lang.String, java.lang.String)[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="loginPageTest" duration-ms="394" started-at="2019-08-14T21:57:28Z" data-provider="getTestData" finished-at="2019-08-14T21:57:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pqrst@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pqrst@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="teardown" is-config="true" duration-ms="757" started-at="2019-08-14T21:57:29Z" finished-at="2019-08-14T21:57:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="setup" is-config="true" duration-ms="11394" started-at="2019-08-14T21:57:30Z" finished-at="2019-08-14T21:57:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTest(java.lang.String, java.lang.String)[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="loginPageTest" duration-ms="413" started-at="2019-08-14T21:57:41Z" data-provider="getTestData" finished-at="2019-08-14T21:57:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ijkl@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ijkl@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:dataProviderTestNG.DataProviderInTestNG@6f7fd0e6]" name="teardown" is-config="true" duration-ms="754" started-at="2019-08-14T21:57:41Z" finished-at="2019-08-14T21:57:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- dataProviderTestNG.DataProviderInTestNG -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- src.demo.DemoGit -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
